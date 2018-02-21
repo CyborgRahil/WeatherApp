@@ -1,0 +1,42 @@
+ext.versions = [
+        kotlin           : '1.2.20',
+        javaxAnnotation  : '1.0',
+        javaxInject      : '1',
+
+        espresso         : '2.2.2',
+        testRunner       : "0.5",
+        junit            : "4.12",
+        mockito          : "2.10.0",
+        mockitoKotlin    : "1.5.0",
+        rxbinding2       : "2.0.0",
+        truth            : "0.36",
+        guava            : "19.0",
+
+]
+
+
+
+ext.libraries = [
+
+        kotlin              : "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin",
+        kotlinAllOpen       : "org.jetbrains.kotlin:kotlin-allopen:$versions.kotlin",
+        kotlinTest          : "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin",
+        rxJava2             : "io.reactivex.rxjava2:rxjava:$versions.rxJava2",
+        rxAndroid           : "io.reactivex.rxjava2:rxandroid:$versions.rxAndroid",
+
+        androidTestRunner   : "com.android.support.test:runner:$versions.testRunner",
+        junit               : "junit:junit:$versions.junit",
+        kotlinJunit         : "org.jetbrains.kotlin:kotlin-test-junit:$versions.kotlin",
+
+        mockito    : "org.mockito:mockito-core:$versions.mockito",
+        mockitoAndroid    : "org.mockito:mockito-android:$versions.mockito",
+        mockitoDexMaker : "com.linkedin.dexmaker:dexmaker-mockito:$versions.dexMaker",
+        mockitoKotlin       : "com.nhaarman:mockito-kotlin-kt1.1:$versions.mockitoKotlin",
+        espresso   : "com.android.support.test.espresso:espresso-core:$versions.espresso",
+        espressoIntent : "com.android.support.test.espresso:espresso-intents:$versions.espresso",
+        espressoContrib: "com.android.support.test.espresso:espresso-contrib:$versions.espresso",
+        espressoWeb: "com.android.support.test.espresso:espresso-web:$versions.espresso",
+        mockWebServer : "com.squareup.okhttp3:mockwebserver:$versions.okHttp",
+
+        guava : "com.google.guava:guava:$versions.guava",
+]

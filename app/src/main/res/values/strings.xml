@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WeatherPoc</string>
+
+    <!--item_weather_list  -->
+    <string name="high_temp">High Temp </string>
+    <string name="low_temp">Low Temp </string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset </string>
+
+    <!-- Message   -->
+    <string name="network_error">For latest forecast connect your device with internet</string>
+</resources>
